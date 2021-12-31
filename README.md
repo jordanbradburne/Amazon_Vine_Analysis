@@ -3,6 +3,10 @@
 ## Overview of the analysis: 
 Analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. Use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, use PySpark to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 
+## Deliverables
+1. Deliverable 1: Perform ETL on Amazon Product Reviews
+2. Deliverable 2: Determine Bias of Vine Reviews
+
 ## Results: 
 * How many Vine reviews and non-Vine reviews were there?
     ### 94 Vine reviews and 40,471 non-vine reviews in the new dataset.
